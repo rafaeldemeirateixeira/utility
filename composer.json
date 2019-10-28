@@ -1,0 +1,22 @@
+{
+    "name": "rafaeldemeirateixeira/utility",
+    "type": "project",
+    "description": "Classe de utilidades",
+    "keywords": ["backend"],
+    "license": "copyright",
+    "authors": [
+        {
+            "name": "Rafael Teixeira",
+            "homepage": "http://criare.ml",
+            "email": "rafaeldemeirateixeira@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
